@@ -6,7 +6,7 @@
 /*   By: bissaka- <bissaka-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 10:28:14 by bissaka-          #+#    #+#             */
-/*   Updated: 2021/09/23 10:35:17 by bissaka-         ###   ########.fr       */
+/*   Updated: 2021/09/23 16:58:03 by bissaka-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main(int argc, char	*argv[])
 {
-	if (argc == 1)
+	if (argc)
 	{
 		write(1, argv[0], 7);
 		write(1, "\n", 1);

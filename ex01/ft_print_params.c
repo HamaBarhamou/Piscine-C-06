@@ -6,7 +6,7 @@
 /*   By: bissaka- <bissaka-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 10:39:53 by bissaka-          #+#    #+#             */
-/*   Updated: 2021/09/23 12:02:07 by bissaka-         ###   ########.fr       */
+/*   Updated: 2021/09/23 16:59:43 by bissaka-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	main(int argc, char	*argv[])
 	int		taille;
 	char	*chaine;
 
-	i = 0;
+	i = 1;
 	taille = 0;
 	while (i < argc)
 	{
